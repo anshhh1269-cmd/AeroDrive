@@ -18,6 +18,8 @@ Switch 3 A 25-minute Pomodoro timer that mutes all motors for quiet studying, wi
 
 The ESP32 device connects to your local Wi-Fi network and establishes a secure connection to fetch live environmental or telemetry data via background HTTP requests. It parses real-time JSON payloads containing parameters like speed, acceleration vectors, temperature metrics, and system status.
 
+Then, the processed data is pushed directly to the display controller to update the custom retro-style dials, digital needles, and live graphs on the screen. Pressing any of the physical switches triggers immediate GPIO interrupts to execute custom routines, toggle display states, or send control commands back through the system.
+
 # The Schematics and PCB
 
 <img width="1098" height="719" alt="Screenshot 2026-08-04 234123" src="https://github.com/user-attachments/assets/d6cb46bd-2ea5-464e-a85f-00038c227bd0" />
@@ -37,4 +39,4 @@ The ESP32 device connects to your local Wi-Fi network and establishes a secure c
 
 
 
-Then, the processed data is pushed directly to the display controller to update the custom retro-style dials, digital needles, and live graphs on the screen. Pressing any of the physical switches triggers immediate GPIO interrupts to execute custom routines, toggle display states, or send control commands back through the system.
+
