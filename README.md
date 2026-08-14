@@ -10,11 +10,11 @@ Now, why did I choose to build AeroDrive over all the other amazing projects? Fi
 
 Firstly, hardware: AeroDrive contains an ESP32 microcontroller, a high-refresh display panel, and custom physical inputs—each mapped to simulate real vehicle and flight telemetry control;
 
-Switch 1 (Traffic Mode): Revs an engine sound on startup, then continuously spins the car wheel fast for clear roads and slow for heavy traffic.
+**Switch 1 (Traffic Mode)**: Revs an engine sound on startup, then continuously spins the car wheel fast for clear roads and slow for heavy traffic.
 
-Switch 2 (Wind Mode): Displays live weather on the screen and briefly spools up the turbine fan whenever real outdoor wind gusts occur.
+**Switch 2 (Wind Mode)**: Displays live weather on the screen and briefly spools up the turbine fan whenever real outdoor wind gusts occur.
 
-Switch 3 A 25-minute Pomodoro timer that mutes all motors for quiet studying, with double-tap display dimming and a long-press demo sweep.
+**Switch 3**: A 25-minute Pomodoro timer that mutes all motors for quiet studying, with double-tap display dimming and a long-press demo sweep.
 
 The ESP32 device connects to your local Wi-Fi network and establishes a secure connection to fetch live environmental or telemetry data via background HTTP requests. It parses real-time JSON payloads containing parameters like speed, acceleration vectors, temperature metrics, and system status.
 
