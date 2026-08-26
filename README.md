@@ -34,9 +34,10 @@ Then, the processed data is pushed directly to the display controller to update 
 
 # 3D Model
 
+<img width="1193" height="688" alt="Screenshot 2026-08-26 223757" src="https://github.com/user-attachments/assets/4cb4b345-db7c-41d7-82fc-cd792b7b8492" />
 
+<img width="1203" height="712" alt="Screenshot 2026-08-26 223811" src="https://github.com/user-attachments/assets/98851e57-6510-4a3d-a616-0021fea47538" />
 
+<img width="785" height="707" alt="Screenshot 2026-08-26 223849" src="https://github.com/user-attachments/assets/66c6db72-9cde-43b2-a03e-b8cf43d80aa1" />
 
-
-
-
+**Public Link**: https://a360.co/4wyEuVF
